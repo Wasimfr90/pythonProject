@@ -11,10 +11,10 @@ side1 = float(input("Please enter the side1 value of a triangle->"))
 side2 = float(input("Please enter the side2 value of a triangle->"))
 side3 = float(input("Please enter the side3 value of a triangle->"))
 
-if side1 == side2 and side2 == side3 and side1 == side3 :
+if side1 == side2 and side2 == side3 and side1 == side3 :             # if a == b == c:
     print("It is a equilateral triangle as all sides are equal!!!")
 
-elif side1 == side2 or side2 == side3 or side1 == side3 :
+elif side1 == side2 or side2 == side3 or side1 == side3 :             #if a == b or b == c or a == c:
     print("It is a isosceles triangle as two sides are equal!!!")
 
 else:

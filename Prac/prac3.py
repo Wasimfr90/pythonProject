@@ -132,7 +132,7 @@ def computer_guess(x):
 computer_guess(10)
 
 
-"""
+
 
 print("***Rock, Paper and Scissor***")
 
@@ -161,6 +161,7 @@ def is_win(player, opponant):
 print(play())
 
 
+"""
 
 
 
