@@ -16,6 +16,6 @@ class Myclass:
 object = Myclass()
 print(object.public_var)
 print(object.balance)
-# print(object.__private_var)
+# print(object.__private_var)   # private can't be called it can only be used inside the class.
 # print(object.__password)
 print(object._protected_var)

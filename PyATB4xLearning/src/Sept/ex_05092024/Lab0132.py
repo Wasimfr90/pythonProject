@@ -12,11 +12,11 @@ class A:     # father
         return "Method A"
 
 
-class B(A):    # Pramod
+class B(A):    # Pramod(Brother 1)
     def methodB(self):
         return "Method B"
 
-class C(A):     # Lucky
+class C(A):     # Lucky(Brother 2)
     def methodC(self):
         return "Method C"
 
