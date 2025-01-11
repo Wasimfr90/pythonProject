@@ -22,4 +22,5 @@ s = Son()
 f = Father()
 gf = Grandfather()
 
+print(s.bhk1())
 
