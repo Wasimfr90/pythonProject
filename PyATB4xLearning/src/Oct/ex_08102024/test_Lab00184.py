@@ -8,7 +8,7 @@ def create_token():
 
 
 @pytest.fixture()
-def creat_booking_id():
+def create_booking_id():
     return 123
 
 
